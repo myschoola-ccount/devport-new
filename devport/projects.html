@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" class="center">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBDEV || PROJECTS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+</head>
+<body class="projects">
+    <div id = "sidebar" class = "sidenav">
+  <a href="index.html">| HOME! |</a>
+  <br>
+  <br>
+  <br>
+  <a href="about.html">| ABOUT ME! |</a>
+  <br>
+  <br>
+  <br>
+  <a href="ai-log.html">| AI-LOG |</a>
+  <br>
+  <br>
+  <br>
+  <a href="journal.html">| JOURNAL |</a>
+  <br>
+  <br>
+  <br>
+  <a href="projects.html">| PROJECTS |</a>
+  <br>
+  <br>
+  <br>
+  <a href="skills.html">| SKILLS |</a>
+  <br><br><br><br>
+  <button onclick="darkmodeprojects()" class="brightbutton"><img src="images/darkmode.png"></button>
+  <br>
+    </div>
+    <div id="main">
+        <div id="projectsbox">
+        <span onclick="navChecker()"; class="aihamburger">&#9776;</span>
+        <br>
+    <img class="titleimg" src="images/projects.png" alt="PROJECTS!!! yay">
+        <p class="subtextpjt"><em>i really like the wrap text up there.. ^</em></p>
+    </div>
+    <h3>FILTER BY</h3>
+    <div class = "filterbar">
+        <button onclick="filter('web')">WEB</button>
+        <button onclick="filter('java')">JAVA</button>
+        <button onclick="filter('js')">JAVASCRIPT</button>
+        <button onclick="filter('other')">OTHER</button>
+        <button onclick="filter('all')">ALL</button>
+    </div>
+    <br>
+    <div class="projectrow">
+    <div class="projectcard other">
+       <img src ="images/AHAsample.png" class="cardimg" alt="AHAlogo">
+       <h2>AHA Database</h2>
+               <a href="https://github.com/myschoola-ccount/AHA-DATABASE" target="_blank"><button> VISIT!</button></a>
+       <p><em>Other</em></p>
+        <p class="readmore">My final for Web + Database development back in Spring of '26! I primarily used Python, Tkinter, and .json files to create an interactable database using a dataset of my own creation! I was kinda into superheroes at the time, hence the concept and overall theming heh..</p>
+        <br>
+        <button onclick="more(this)">READ MORE</button>
+    </div>
+    <div class="projectcard js">
+       <img src ="images/PLACEHOLDER.png" class="cardimg" alt="AHAlogo">
+       <h2>PLACEHOLDER</h2>
+       <p><em>Javascript</em></p>
+        <p class="readmore">Hello! This is currently a placeholder until I can put more projects of note here;
+           Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien
+        vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus
+        leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
+        Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu.
+        Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+        <button onclick="more(this)">READ MORE</button>
+    </div>
+    <div class="projectcard web">
+       <img src ="images/PLACEHOLDER.png" class="cardimg" alt="AHAlogo">
+       <h2>PLACEHOLDER</h2>
+       <p><em>Web</em></p>
+        <p class="readmore">Hello! This is currently a placeholder until I can put more projects of note here;
+           Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien
+        vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus
+        leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
+        Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu.
+        Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+        <button onclick="more(this)">READ MORE</button>
+    </div>
+    <div class="projectcard java">
+       <img src ="images/PLACEHOLDER.png" class="cardimg" alt="AHAlogo">
+       <h2>PLACEHOLDER</h2>
+       <p><em>Java</em></p>
+        <p class="readmore">Hello! This is currently a placeholder until I can put more projects of note here;
+           Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien
+        vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus
+        leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
+        Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu.
+        Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+        <button onclick="more(this)">READ MORE</button>
+    </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
