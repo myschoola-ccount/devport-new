@@ -512,3 +512,7 @@ th, td {
 .readmore.show {
     display: block;
 }
+
+ a{
+    color: #ea4e6d;
+}
