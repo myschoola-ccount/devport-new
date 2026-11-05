@@ -80,7 +80,7 @@ div{
 }
 
 a{
-    color: rgb(254, 209, 117);
+    color: rgb(198, 27, 107);
     text-decoration: none;
 }
 
@@ -513,6 +513,3 @@ th, td {
     display: block;
 }
 
- a{
-    color: #ea4e6d;
-}
